@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const { Hercai } = require('hercai');
 const app = express();
-const port = 5000;
+const port = 80;
 
 const herc = new Hercai();
 
